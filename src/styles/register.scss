@@ -1,0 +1,43 @@
+.container {
+  width: 396px;
+  border-radius: 17px;
+  margin: 116px auto;
+  background-color: white;
+  .header {
+    text-align: center;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #494444;
+    padding: 24px;
+    padding-bottom: 1px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    & * {
+      padding: 2%;
+      margin: 2% auto;
+      width: 87%;
+      border-radius: 19px;
+      border: none;
+      font-size: 1rem;
+    }
+    input {
+      border-radius: 30px;
+      background-color: #ebf0fc;
+      border-color: #ebf0fc;
+      color: #9da3b0;
+      outline: none;
+      padding: 12px;
+    }
+  }
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+    div {
+      svg {
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.submit {
+  background-color: rgb(53, 53, 228);
+  color: white;
+}
+.account {
+  background-color: rgb(231, 17, 88);
+  color: white;
+}
+.btn {
+  cursor: pointer;
+  border: none;
+}
+.icon {
+  width: 9%;
+  margin: 2% 2% -4% 2%;
+  padding: 2%;
+  border-radius: 50%;
+  svg {
+    color: white;
+  }
+}
+.facebook {
+  background-color: blue;
+}
+.google {
+  background-color: red;
+}
+.twitter {
+  background-color: #17a2b8;
+}
